@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Counter Application</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/default.css') }}">
+    <script src="{{ url_for('static',filename='js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/asyncComm.js') }}"></script>
+</head>
+<body>
+    <div id="pageTitle">Word Counter Application</div>
+    <div id="formWrapper">
+        <form id="mainForm" action="http://localhost:5000/processText" method=post>
+            <textarea id="mainTextArea" placeholder="Type something!" rows="10" cols="60" name="bagOfText"></textarea>
+            <div id="insertedText"></div>
+            <div id="errorMsg"></div>
+            <input id="submitBtn" type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+</html>
