@@ -1,6 +1,7 @@
 # Word Counter Application
 Flask based HTTP service to consume text and return the number of words.
 
+![wordcounterexample](https://user-images.githubusercontent.com/3229701/36821720-29be8efa-1cd3-11e8-9903-36f73cd42ed4.png)
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
